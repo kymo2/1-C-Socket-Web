@@ -1,10 +1,3 @@
-/*
- * tiny_client.c — fetch “/” from an HTTP server and dump the response.
- *
- * build : gcc -Wall -Wextra -pedantic -std=c99 -o tiny_client tiny_client.c
- * usage : ./tiny_client <IPv4-address>
- */
-
 #include <sys/socket.h>    // socket(), connect(), read(), write()
 #include <netinet/in.h>    // sockaddr_in, htons()
 #include <arpa/inet.h>     // inet_pton()
